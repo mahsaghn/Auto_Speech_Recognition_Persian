@@ -3,7 +3,7 @@ Automatic Speech Recognition
 
 This project is totally based on DeepSpeech.Pytorch on Github.
 ## Model Architecture
-| <img src="statistics/arc.png" alt="ASR Model" width="600"/> | 
+| <img src="statistics/ASR.png" alt="ASR Model" width="600"/> | 
 |:--:| 
 | *ASR: DeepSpeech Model Overview* |
 
