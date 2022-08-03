@@ -1,6 +1,6 @@
 # ASR_persian
 Automatic Speech Recognition
-
+ASR_persian is an project with the purpose of converting input audio into text. 
 This project is totally based on DeepSpeech.Pytorch on Github.
 ## Model Architecture
 | <img src="statistics/ASR.png" alt="ASR Model" width="900"/> | 
@@ -9,6 +9,7 @@ This project is totally based on DeepSpeech.Pytorch on Github.
 
 
 ## Parametes
+In this part desired initial configuration is defined in detail. 
 ### configs/mozilla
 - gpus: number of gpu to use
 - save_top_k: Number of best models to save
@@ -28,10 +29,12 @@ This project is totally based on DeepSpeech.Pytorch on Github.
 
 ## Run
 ### Train 
+First you should train model with configuration specified in the config file. Becareful to follow the mozilla config file foramt. 
 ```
 python train.py configs=mozilla
 ```
 ### Inference:
+Run test.py in odrer to test trained model. 
 ```
 python test.py
 ```
