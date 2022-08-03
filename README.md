@@ -9,6 +9,12 @@ In this section, we overview model details. Firstly preprocessing procedures are
 |:--:| 
 | *ASR: DeepSpeech Model Overview* |
 
+## Noise Injetion 
+A possible method to enrich the dataset and consequently train a robust model is adding the various types of noise into pure audios in the dataset; The expanded version of the database may include multiple copies of the same audio each is composed of a different noise.
+
+```
+python noise_inject.py 
+```
 
 ## Parametes
 In this part desired initial configuration is defined in detail. 
