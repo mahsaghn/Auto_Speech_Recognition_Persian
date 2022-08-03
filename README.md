@@ -1,8 +1,10 @@
 # ASR_persian
 Automatic Speech Recognition
-ASR_persian is an project with the purpose of converting input audio into text. 
-This project is totally based on DeepSpeech.Pytorch on Github.
+ASR_persian is a project with the purpose of converting input audio into text with the use of deel neural networks. 
+This project is inspired from DeepSpeech.Pytorch on Github. 
+
 ## Model Architecture
+In this section, we overview model details. Firstly preprocessing procedures are applied to input audio; then, the code computes "mel Spectrogram" of the sequence as the input of the neural network. Batch Normalization is composed of 2 layers of the convolutional unit following 5 layers of LSTM; Finally a fully connected network. A CTC decoder is placed at the output of Fully Connected Network which generates output text. 
 | <img src="statistics/ASR.png" alt="ASR Model" width="900"/> | 
 |:--:| 
 | *ASR: DeepSpeech Model Overview* |
